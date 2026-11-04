@@ -1,0 +1,4 @@
+{"tools":[
+ {"name":"search","description":"Search docs","inputSchema":{"type":"object","properties":{"query":{"type":"string"},"limit":{"type":"integer"},"mode":{"type":"string","enum":["fast","deep"]}},"required":["query"]}},
+ {"name":"fetch_page","description":"Fetch a page","inputSchema":{"type":"object","properties":{"url":{"type":"string"}},"required":["url"]}}
+]}
